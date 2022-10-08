@@ -38,4 +38,13 @@ public class ItemInit {
 	public static final RegistryObject<Item> SSUNDE = ITEMS.register("ssunde",
 			() -> new Item(new Item.Properties().group(null).food(FoodInit.SSUNDEEATBUILDER)));
 	
+	public static final RegistryObject<Item> BAGE = ITEMS.register("bajancanidan",
+			() -> new Item(new Item.Properties().group(null).food(FoodInit.BAGE)));
+	
+	public static final RegistryObject<Item> HUSTY = ITEMS.register("huskymudkits",
+			() -> new Item(new Item.Properties().group(null).food(FoodInit.HUSKY)));
+	
+	public static final RegistryObject<Item> JEROME = ITEMS.register("jerome",
+			() -> new Item(new Item.Properties().group(null).food(FoodInit.JEROME)));
+	
 }

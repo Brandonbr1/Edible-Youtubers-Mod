@@ -10,7 +10,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(ExampleMod.MOD_ID)
 public class ExampleMod{
 	
-	public static final String MOD_ID = "mainmod";
+	public static final String MOD_ID = "yteat";
 
     public ExampleMod() {
     	IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

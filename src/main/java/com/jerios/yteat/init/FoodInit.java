@@ -54,6 +54,19 @@ public class FoodInit {
 			.fastToEat().hunger(2).saturation(0.2f)
 			.setAlwaysEdible().build();
 
-
+	public static final Food BAGE = new Food.Builder()
+			.effect(() -> new EffectInstance(Effects.INVISIBILITY, 1, 2000), 0.5f)
+			.fastToEat().hunger(2).saturation(0.2f)
+			.setAlwaysEdible().build();
+	
+	public static final Food JEROME = new Food.Builder()
+			.effect(() -> new EffectInstance(Effects.NIGHT_VISION, 1, 2000), 0.5f)
+			.fastToEat().hunger(2).saturation(0.2f)
+			.setAlwaysEdible().build();
+	
+	public static final Food HUSKY = new Food.Builder()
+			.effect(() -> new EffectInstance(Effects.WATER_BREATHING, 1, 2000), 0.5f)
+			.fastToEat().hunger(2).saturation(0.2f)
+			.setAlwaysEdible().build();
 
 }
